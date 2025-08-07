@@ -1,0 +1,38 @@
+{
+  "name": "AWHOilSwift",
+  "version": "1.0.3",
+  "summary": "石油行业数据可视化工具库",
+  "description": "AWHOilSwift 是一个专注于石油行业数据可视化的 Swift 库，基于 DGCharts 扩展，提供图表交互、数据解析和自定义标记视图等功能，简化石油监测场景的开发流程。",
+  "homepage": "https://github.com/zhangwen31/AWHOilSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "王恒": "1066026709@qq.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/zhangwen31/AWHOilSwift.git",
+    "tag": "1.0.3"
+  },
+  "vendored_frameworks": [
+    "AWHOilSwift.framework"
+  ],
+  "source_files": "AWHOilSwift.framework/Headers/*h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreGraphics"
+  ],
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "dependencies": {
+    "DGCharts": [
+      "~> 5.1.0"
+    ]
+  },
+  "swift_version": "5.0"
+}
